@@ -13,13 +13,14 @@
 # <Multi_key> <*> <b>: "β" U03B2 # GREEK SMALL LETTER BETA
 <Multi_key> <b> <h>: "β" U03B2 # GREEK SMALL LETTER BETA
 # <Multi_key> <b> <`>: "ʙ" U0299 # LATIN LETTER SMALL CAPITAL B
+# <Multi_key> <b> <'>: "ɓ" U0253 # LATIN SMALL LETTER B WITH HOOK
 
 ### Labiodental
 <Multi_key> <m> <f>: "ɱ" U0271 # LATIN SMALL LETTER M WITH HOOK
 <Multi_key> <v> <h>: "ʋ" U028B # LATIN SMALL LETTER V WITH HOOK
 
-### Palatal
-<Multi_key> <g> <n>: "ɲ" U0272 # LATIN SMALL LETTER N WITH LEFT HOOK
+### Alveolar
+# <Multi_key> <d> <'>: "ɗ" U0257 # LATIN SMALL LETTER D WITH HOOK
 
 ### Alveolar-Palatal (with curl / crossed-tail)
 <Multi_key> <d> <semicolon>: "ȡ" U0221 # LATIN SMALL LETTER D WITH CURL
@@ -30,8 +31,20 @@
 <Multi_key> <j> <semicolon>: "ʝ" U029D # LATIN SMALL LETTER J WITH CROSSED-TAIL
 <Multi_key> <l> <semicolon>: "ȴ" U0234 # LATIN SMALL LETTER L WITH CURL
 
+### Retroflex
+# <Multi_key> <d> <,>: "ɖ" U0256 # LATIN SMALL LETTER D WITH TAIL
+<Multi_key> <d> <parenleft>: "ᶑ" U1D51 # LATIN SMALL LETTER D WITH RETROFLEX HOOK
+
+### Palatal
+<Multi_key> <g> <n>: "ɲ" U0272 # LATIN SMALL LETTER N WITH LEFT HOOK
+<Multi_key> <j> <h>: "ʄ" U0284 # LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK
+
 ### Velar
 <Multi_key> <u> <j>: "ɰ" U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
+# <Multi_key> <g> <'>: "ɠ" U0260 # LATIN SMALL LETTER G WITH HOOK
+
+### Uvular
+# <Multi_key> <G> <'>: "ʛ" U029B # LATIN LETTER SMALL CAPITAL G
 
 ## Coarticulated
 <Multi_key> <s> <j>: "ɧ" U0267 # LATIN SMALL LETTER HENG WITH HOOK
