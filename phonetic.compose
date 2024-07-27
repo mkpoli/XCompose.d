@@ -65,9 +65,19 @@
 <Multi_key> <a> <h> <r>: "ɑ˞" U0251 U02DE # GREEK SMALL LETTER ALPHA WITH HOOK
 <Multi_key> <u> <h> <r>: "ʊ˞" U028A U02DE # LATIN SMALL LETTER UPSILON WITH HOOK
 
+# Suprasegmentals
 
-# Diacritics
+## VoQS (Phonation)
 
-## Laminal
-<Multi_key> <\> <[> <]>: "̻" U033B # COMBINING SQUARE BELOW
+### Breathy Voice
+<Multi_key> <\> <_> <quotedbl>: "̤" U0324 # COMBINING DIAERESIS BELOW
 
+### Faucalized voice
+<Multi_key> <\> <_> <.>: "͈" U0348 # COMBINING DOUBLE VERTICAL LINE BELOW
+
+## Tones
+<Multi_key> <1> <bar>: "˩"
+<Multi_key> <2> <bar>: "˨"
+<Multi_key> <3> <bar>: "˧"
+<Multi_key> <4> <bar>: "˦"
+<Multi_key> <5> <bar>: "˥"
