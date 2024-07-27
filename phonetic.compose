@@ -51,7 +51,17 @@
 
 # Vowels
 
-# Mid-centralized
+## Pure Vowels
+<Multi_key> <o> <h>: "ɔ" U0254 # LATIN SMALL LETTER OPEN O
+<Multi_key> <y> <h>: "ʏ" U028A # LATIN SMALL LETTER UPSILON
+<Multi_key> <i> <equal>: "ɨ" # LATIN SMALL LETTER I WITH STROKE
+<Multi_key> <u> <equal>: "ʉ" # LATIN SMALL LETTER U BAR 
+
+## Mid Vowels
+<Multi_key> <e> <v>: "e̞" U0065 U031E # LATIN SMALL LETTER E WITH COMBINING DOWN TACK BELOW
+<Multi_key> <o> <v>: "o̞" U006F U031E # LATIN SMALL LETTER O WITH COMBINING DOWN TACK BELOW
+
+## Mid-centralized
 <Multi_key> <a> <x>: "a̽" U0061 U033D # LATIN SMALL LETTER A WITH COMBINING X ABOVE 
 <Multi_key> <i> <x>: "i̽" U0069 U033D # LATIN SMALL LETTER I WITH COMBINING X ABOVE
 <Multi_key> <e> <x>: "e̽" U0065 U033D # LATIN SMALL LETTER E WITH COMBINING X ABOVE
@@ -59,11 +69,17 @@
 <Multi_key> <u> <x>: "u̽" U0075 U033D # LATIN SMALL LETTER U WITH COMBINING X ABOVE
 <Multi_key> <y> <x>: "y̽" U0079 U033D # LATIN SMALL LETTER Y WITH COMBINING X ABOVE
 
-
-# R-colored vowels
+## R-colored vowels
 <Multi_key> <a> <r>: "a˞" U0061 U02DE # LATIN SMALL LETTER A WITH HOOK
 <Multi_key> <a> <h> <r>: "ɑ˞" U0251 U02DE # GREEK SMALL LETTER ALPHA WITH HOOK
 <Multi_key> <u> <h> <r>: "ʊ˞" U028A U02DE # LATIN SMALL LETTER UPSILON WITH HOOK
+
+## Non-Syllabic Vowels
+<Multi_key> <i> <@> <^>: "i̯" U0069 U032F # LATIN SMALL LETTER I WITH COMBINING INVERTED BREVE BELOW
+<Multi_key> <u> <@> <^>: "u̯" U0075 U032F # LATIN SMALL LETTER U WITH COMBINING INVERTED BREVE BELOW
+
+## Modifiers
+<Multi_key> <^> <_> <e> <e>: "ᵊ" U1D4A # MODIFIER LETTER SMALL SCHWA
 
 # Suprasegmentals
 
