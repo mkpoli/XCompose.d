@@ -134,6 +134,12 @@
 ## Modifiers
 <Multi_key> <^> <_> <e> <e>: "ᵊ" U1D4A # MODIFIER LETTER SMALL SCHWA
 
+## Apical
+<Multi_key> <d> <r>: "ɿ" U027F # LATIN SMALL LETTER REVERSED R WITH FISHHOOK
+<Multi_key> <i> <r>: "ʅ" U0285 # LATIN SMALL LETTER SQUAT REVERSED ESH
+<Multi_key> <z> <r> <period>: "ʮ" U02AE # LATIN SMALL LETTER TURNED H
+<Multi_key> <z> <r> <comma>: "ʯ" U02AF # LATIN SMALL LETTER TURNED H WITH FISHHOOK
+
 # Suprasegmentals
 
 ## VoQS (Phonation)
