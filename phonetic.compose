@@ -39,6 +39,10 @@
 ## Affricates
 
 ### with tie
+<Multi_key> <p> <^> <p> <h>: "p͡ɸ" U02A0 # VOICELESS BILABIAL AFFRICATE (TIE ABOVE)
+<Multi_key> <b> <^> <b> <h>: "b͡β" U02A1 # VOICED BILABIAL AFFRICATE (TIE ABOVE)
+<Multi_key> <p> <^> <f>: "p͡f" U02A0 # VOICELESS LABIODENTAL AFFRICATE (TIE ABOVE)
+<Multi_key> <b> <^> <v>: "b͡v" U02A1 # VOICED LABIODENTAL AFFRICATE (TIE ABOVE)
 <Multi_key> <t> <^> <s>: "t͡s" U02A6 # VOICELESS ALVEOLAR AFFRICATE (TIE ABOVE)
 <Multi_key> <t> <^> <S>: "t͡ʃ" U02A7 # VOICELESS POSTALVEOLAR AFFRICAT (TIE ABOVE)
 <Multi_key> <d> <_> <z>: "d͜z" U02A3 # VOICED ALVEOLAR AFFRICATE (TIE BELOW)
