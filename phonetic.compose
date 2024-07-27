@@ -36,9 +36,9 @@
 <Multi_key> <k> <a>: "k̚" U006B U031A # LATIN SMALL LETTER K WITH COMBINING RIGHT ANGLE BELOW
 <Multi_key> <g> <a>: "g̚" U0067 U031A # LATIN SMALL LETTER G WITH COMBINING RIGHT ANGLE BELOW
 
-# Affricates
+## Affricates
 
-## with tie
+### with tie
 <Multi_key> <t> <^> <s>: "t͡s" U02A6 # VOICELESS ALVEOLAR AFFRICATE (TIE ABOVE)
 <Multi_key> <t> <^> <S>: "t͡ʃ" U02A7 # VOICELESS POSTALVEOLAR AFFRICAT (TIE ABOVE)
 <Multi_key> <d> <_> <z>: "d͜z" U02A3 # VOICED ALVEOLAR AFFRICATE (TIE BELOW)
@@ -48,6 +48,8 @@
 <Multi_key> <t> <^> <c>: "t͡ɕ" U02A7 # VOICELESS ALVEOLO-PALATAL AFFRICATE
 <Multi_key> <d> <^> <j>: "d͡ʑ" U02A4 # VOICED ALVEOLO-PALATAL AFFRICATE
 
+## Laminal
+<Multi_key> <\> <[> <]>: "̻" U033B # COMBINING SQUARE BELOW
 
 # Vowels
 
