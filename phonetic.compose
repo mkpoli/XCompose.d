@@ -6,7 +6,22 @@
 
 # Consonants
 
-## Alveolar-Palatal (with curl / crossed-tail)
+## Plain
+
+### Bilabial
+# <Multi_key> <p> <h>: "ɸ" U0278 # LATIN SMALL LETTER PHI
+# <Multi_key> <*> <b>: "β" U03B2 # GREEK SMALL LETTER BETA
+<Multi_key> <b> <h>: "β" U03B2 # GREEK SMALL LETTER BETA
+# <Multi_key> <b> <`>: "ʙ" U0299 # LATIN LETTER SMALL CAPITAL B
+
+### Labiodental
+<Multi_key> <m> <f>: "ɱ" U0271 # LATIN SMALL LETTER M WITH HOOK
+<Multi_key> <v> <h>: "ʋ" U028B # LATIN SMALL LETTER V WITH HOOK
+
+### Palatal
+<Multi_key> <g> <n>: "ɲ" U0272 # LATIN SMALL LETTER N WITH LEFT HOOK
+
+### Alveolar-Palatal (with curl / crossed-tail)
 <Multi_key> <d> <semicolon>: "ȡ" U0221 # LATIN SMALL LETTER D WITH CURL
 <Multi_key> <t> <semicolon>: "ȶ" U0236 # LATIN SMALL LETTER T WITH CURL
 <Multi_key> <n> <semicolon>: "ȵ" U0235 # LATIN SMALL LETTER N WITH CURL
@@ -14,6 +29,15 @@
 <Multi_key> <z> <semicolon>: "ʑ" U0291 # LATIN SMALL LETTER Z WITH CURL
 <Multi_key> <j> <semicolon>: "ʝ" U029D # LATIN SMALL LETTER J WITH CROSSED-TAIL
 <Multi_key> <l> <semicolon>: "ȴ" U0234 # LATIN SMALL LETTER L WITH CURL
+
+### Velar
+<Multi_key> <u> <j>: "ɰ" U0270 # LATIN SMALL LETTER TURNED M WITH LONG LEG
+
+## Coarticulated
+<Multi_key> <s> <j>: "ɧ" U0267 # LATIN SMALL LETTER HENG WITH HOOK
+
+## Velarized
+<Multi_key> <l> <asciitilde>: "ɫ" U026B # LATIN SMALL LETTER L WITH MIDDLE TILDE
 
 ## Syllabic (with vertical line below)
 <Multi_key> <|> <_>: "̩" U0329 # COMBINING VERTICAL LINE BELOW
