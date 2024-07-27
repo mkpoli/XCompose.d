@@ -1,0 +1,73 @@
+# -*- coding: utf-8 -*-
+#
+# Phonetic Symbols (IPA and others) for XCompose
+# by mkpoli <mkpoli@mkpo.li>
+
+
+# Consonants
+
+## Alveolar-Palatal (with curl / crossed-tail)
+<Multi_key> <d> <semicolon>: "ȡ" U0221 # LATIN SMALL LETTER D WITH CURL
+<Multi_key> <t> <semicolon>: "ȶ" U0236 # LATIN SMALL LETTER T WITH CURL
+<Multi_key> <n> <semicolon>: "ȵ" U0235 # LATIN SMALL LETTER N WITH CURL
+<Multi_key> <c> <semicolon>: "ɕ" U0255 # LATIN SMALL LETTER C WITH CURL
+<Multi_key> <z> <semicolon>: "ʑ" U0291 # LATIN SMALL LETTER Z WITH CURL
+<Multi_key> <j> <semicolon>: "ʝ" U029D # LATIN SMALL LETTER J WITH CROSSED-TAIL
+<Multi_key> <l> <semicolon>: "ȴ" U0234 # LATIN SMALL LETTER L WITH CURL
+
+## Syllabic (with vertical line below)
+<Multi_key> <|> <_>: "̩" U0329 # COMBINING VERTICAL LINE BELOW
+<Multi_key> <m> <|>: "m̩" U006D U0329 # LATIN SMALL LETTER M WITH COMBINING VERTICAL LINE BELOW
+<Multi_key> <n> <|>: "n̩" U006E U0329 # LATIN SMALL LETTER N WITH COMBINING VERTICAL LINE BELOW
+<Multi_key> <l> <|>: "l̩" U006C U0329 # LATIN SMALL LETTER L WITH COMBINING VERTICAL LINE BELOW
+<Multi_key> <n> <g> <|>: "ŋ̩" U014B U0329 # LATIN SMALL LETTER ENG WITH COMBINING VERTICAL LINE BELOW
+<Multi_key> <r> <|>: "ɹ̩" U0279 U0329 # LATIN SMALL LETTER TURNED R WITH COMBINING VERTICAL LINE BELOW
+<Multi_key> <r> <h> <|>: "ɻ̩" U027B U0329 # LATIN SMALL LETTER TURNED R WITH HOOK AND COMBINING VERTICAL LINE BELOW
+<Multi_key> <z> <|>: "z̩" U007A U0329 # LATIN SMALL LETTER Z WITH COMBINING VERTICAL LINE BELOW
+<Multi_key> <z> <r> <|>: "ʐ̩" U0290 U0329 # LATIN SMALL LETTER Z WITH RETROFLEX HOOK AND COMBINING VERTICAL LINE BELOW
+
+## Applosives (No audible release)
+<Multi_key> <_> <|>:  "̚" U031A # COMBINING LEFT ANGLE ABOVE
+<Multi_key> <n> <a>: "n̚" U006E U031A # LATIN SMALL LETTER N WITH COMBINING RIGHT ANGLE BELOW
+<Multi_key> <t> <a>: "t̚" U0074 U031A # LATIN SMALL LETTER T WITH COMBINING RIGHT ANGLE BELOW
+<Multi_key> <d> <a>: "d̚" U0064 U031A # LATIN SMALL LETTER D WITH COMBINING RIGHT ANGLE BELOW
+<Multi_key> <p> <a>: "p̚" U0070 U031A # LATIN SMALL LETTER P WITH COMBINING RIGHT ANGLE BELOW
+<Multi_key> <b> <a>: "b̚" U0062 U031A # LATIN SMALL LETTER B WITH COMBINING RIGHT ANGLE BELOW
+<Multi_key> <k> <a>: "k̚" U006B U031A # LATIN SMALL LETTER K WITH COMBINING RIGHT ANGLE BELOW
+<Multi_key> <g> <a>: "g̚" U0067 U031A # LATIN SMALL LETTER G WITH COMBINING RIGHT ANGLE BELOW
+
+# Affricates
+
+## with tie
+<Multi_key> <t> <^> <s>: "t͡s" U02A6 # VOICELESS ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <t> <^> <S>: "t͡ʃ" U02A7 # VOICELESS POSTALVEOLAR AFFRICAT (TIE ABOVE)
+<Multi_key> <d> <_> <z>: "d͜z" U02A3 # VOICED ALVEOLAR AFFRICATE (TIE BELOW)
+<Multi_key> <d> <^> <z>: "d͡z" U02A3 # VOICED ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <d> <_> <Z>: "d͜ʒ" U02A4 # VOICED POSTALVEOLAR AFFRICATE (TIE BELOW)
+<Multi_key> <d> <^> <Z>: "d͡ʒ" U02A4 # VOICED POSTALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <t> <^> <c>: "t͡ɕ" U02A7 # VOICELESS ALVEOLO-PALATAL AFFRICATE
+<Multi_key> <d> <^> <j>: "d͡ʑ" U02A4 # VOICED ALVEOLO-PALATAL AFFRICATE
+
+
+# Vowels
+
+# Mid-centralized
+<Multi_key> <a> <x>: "a̽" U0061 U033D # LATIN SMALL LETTER A WITH COMBINING X ABOVE 
+<Multi_key> <i> <x>: "i̽" U0069 U033D # LATIN SMALL LETTER I WITH COMBINING X ABOVE
+<Multi_key> <e> <x>: "e̽" U0065 U033D # LATIN SMALL LETTER E WITH COMBINING X ABOVE
+<Multi_key> <o> <x>: "o̽" U006F U033D # LATIN SMALL LETTER O WITH COMBINING X ABOVE
+<Multi_key> <u> <x>: "u̽" U0075 U033D # LATIN SMALL LETTER U WITH COMBINING X ABOVE
+<Multi_key> <y> <x>: "y̽" U0079 U033D # LATIN SMALL LETTER Y WITH COMBINING X ABOVE
+
+
+# R-colored vowels
+<Multi_key> <a> <r>: "a˞" U0061 U02DE # LATIN SMALL LETTER A WITH HOOK
+<Multi_key> <a> <h> <r>: "ɑ˞" U0251 U02DE # GREEK SMALL LETTER ALPHA WITH HOOK
+<Multi_key> <u> <h> <r>: "ʊ˞" U028A U02DE # LATIN SMALL LETTER UPSILON WITH HOOK
+
+
+# Diacritics
+
+## Laminal
+<Multi_key> <\> <[> <]>: "̻" U033B # COMBINING SQUARE BELOW
+
