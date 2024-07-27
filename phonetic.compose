@@ -63,18 +63,31 @@
 ## Affricates
 
 ### with tie
-<Multi_key> <p> <^> <p> <h>: "p͡ɸ" U02A0 # VOICELESS BILABIAL AFFRICATE (TIE ABOVE)
-<Multi_key> <b> <^> <b> <h>: "b͡β" U02A1 # VOICED BILABIAL AFFRICATE (TIE ABOVE)
-<Multi_key> <p> <^> <f>: "p͡f" U02A0 # VOICELESS LABIODENTAL AFFRICATE (TIE ABOVE)
-<Multi_key> <b> <^> <v>: "b͡v" U02A1 # VOICED LABIODENTAL AFFRICATE (TIE ABOVE)
-<Multi_key> <t> <^> <s>: "t͡s" U02A6 # VOICELESS ALVEOLAR AFFRICATE (TIE ABOVE)
-<Multi_key> <t> <^> <S>: "t͡ʃ" U02A7 # VOICELESS POSTALVEOLAR AFFRICAT (TIE ABOVE)
-<Multi_key> <d> <_> <z>: "d͜z" U02A3 # VOICED ALVEOLAR AFFRICATE (TIE BELOW)
-<Multi_key> <d> <^> <z>: "d͡z" U02A3 # VOICED ALVEOLAR AFFRICATE (TIE ABOVE)
-<Multi_key> <d> <_> <Z>: "d͜ʒ" U02A4 # VOICED POSTALVEOLAR AFFRICATE (TIE BELOW)
-<Multi_key> <d> <^> <Z>: "d͡ʒ" U02A4 # VOICED POSTALVEOLAR AFFRICATE (TIE ABOVE)
-<Multi_key> <t> <^> <c>: "t͡ɕ" U02A7 # VOICELESS ALVEOLO-PALATAL AFFRICATE
-<Multi_key> <d> <^> <j>: "d͡ʑ" U02A4 # VOICED ALVEOLO-PALATAL AFFRICATE
+<Multi_key> <p> <^> <p> <h>: "p͡ɸ" U0070 U0361 U0278 # VOICELESS BILABIAL AFFRICATE (TIE ABOVE)
+<Multi_key> <b> <^> <b> <h>: "b͡β" U0062 U0361 U03B2 # VOICED BILABIAL AFFRICATE (TIE ABOVE)
+<Multi_key> <p> <^> <f>: "p͡f" U0070 U0361 U0066 # VOICELESS LABIODENTAL AFFRICATE (TIE ABOVE)
+<Multi_key> <b> <^> <v>: "b͡v" U0062 U0361 U0076 # VOICED LABIODENTAL AFFRICATE (TIE ABOVE)
+<Multi_key> <t> <^> <s>: "t͡s" U0074 U0361 U0073 # VOICELESS ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <t> <^> <S>: "t͡ʃ" U0074 U0361 U0283 # VOICELESS ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <d> <v> <z>: "d͜z" U0064 U036C U007A # VOICED ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <d> <^> <z>: "d͡z" U0074 U0361 U007A # VOICED ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <d> <v> <Z>: "d͜ʒ" U0064 U036C U0292 # VOICED ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <d> <^> <Z>: "d͡ʒ" U0074 U0361 U0292 # VOICED ALVEOLAR AFFRICATE (TIE ABOVE)
+<Multi_key> <t> <^> <c>: "t͡ɕ" U0074 U0361 U0255 # VOICELESS ALVEOLO-PALATAL AFFRICATE (TIE ABOVE)
+<Multi_key> <d> <^> <j>: "d͡ʑ" U0064 U0361 U0291 # VOICED ALVEOLO-PALATAL AFFRICATE (TIE ABOVE)
+
+### ligature
+<Multi_key> <d> <z>: "ʣ" U02A3 # LATIN SMALL LETTER DZ DIGRAPH
+<Multi_key> <d> <Z>: "ʤ" U02A4 # LATIN SMALL LETTER DEZH DIGRAPH
+<Multi_key> <t> <s>: "ʦ" U02A6 # LATIN SMALL LETTER TS DIGRAPH
+<Multi_key> <t> <S>: "ʧ" U02A7 # LATIN SMALL LETTER TESH DIGRAPH
+<Multi_key> <t> <c>: "ʨ" U02A8 # LATIN SMALL LETTER TC DIGRAPH
+
+### digraph
+<Multi_key> <d> <underscore> <Z>: "dʒ" U0064 U0292 # LATIN SMALL LETTER DEZH
+<Multi_key> <t> <underscore> <S>: "tʃ" U0074 U0283 # LATIN SMALL LETTER TESH
+<Multi_key> <t> <underscore> <c>: "tɕ" U0074 U0255 # LATIN SMALL LETTER TC
+<Multi_key> <d> <underscore> <j>: "dʑ" U0064 U0291 # LATIN SMALL LETTER DZ
 
 ## Laminal
 <Multi_key> <\> <[> <]>: "̻" U033B # COMBINING SQUARE BELOW
