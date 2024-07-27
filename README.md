@@ -9,5 +9,6 @@ This repository contains a custom compose key configuration that I use daily. It
 3. In your custom configuration `C:\Users\<username>\.XCCompose`, add the following lines to the end of the file:
     ```xcompose
     include "XCompose.d/phonetic.compose"
+    include "XCompose.d/unicode.compose"
     # add more files here
     ```

@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+#
+# Phonetic Symbols (IPA and others) for XCompose
+# by mkpoli <mkpoli@mkpo.li>
+
+# Variantion Selectors
+<Multi_key> <V> <S> <0> <1>: "︀" UFE00 # VARIATION SELECTOR-1
+<Multi_key> <V> <S> <0> <2>: "︁" UFE01 # VARIATION SELECTOR-2
+<Multi_key> <V> <S> <0> <3>: "︂" UFE02 # VARIATION SELECTOR-3
+<Multi_key> <V> <S> <0> <4>: "︃" UFE03 # VARIATION SELECTOR-4
+<Multi_key> <V> <S> <0> <5>: "︄" UFE04 # VARIATION SELECTOR-5
+<Multi_key> <V> <S> <0> <6>: "︅" UFE05 # VARIATION SELECTOR-6
+<Multi_key> <V> <S> <0> <7>: "︆" UFE06 # VARIATION SELECTOR-7
+<Multi_key> <V> <S> <0> <8>: "︇" UFE07 # VARIATION SELECTOR-8
+<Multi_key> <V> <S> <0> <9>: "︈" UFE08 # VARIATION SELECTOR-9
+<Multi_key> <V> <S> <1> <0>: "︉" UFE09 # VARIATION SELECTOR-10
+<Multi_key> <V> <S> <1> <1>: "︊" UFE0A # VARIATION SELECTOR-11
+<Multi_key> <V> <S> <1> <2>: "︋" UFE0B # VARIATION SELECTOR-12
+<Multi_key> <V> <S> <1> <3>: "︌" UFE0C # VARIATION SELECTOR-13
+<Multi_key> <V> <S> <1> <4>: "︍" UFE0D # VARIATION SELECTOR-14
+<Multi_key> <V> <S> <1> <5>: "︎" UFE0E # VARIATION SELECTOR-15
+<Multi_key> <V> <S> <1> <6>: "️" UFE0F # VARIATION SELECTOR-16
+
