@@ -118,6 +118,7 @@
 <Multi_key> <u> <equal>: "ʉ" # LATIN SMALL LETTER U BAR
 # <Multi_key> <u> <i>: "ɯ" # LATIN SMALL LETTER TURNED M
 <Multi_key> <m> <m>: "ɯ" # LATIN SMALL LETTER TURNED M
+<Multi_key> <u> <u>: "ɯ" # LATIN SMALL LETTER TURNED M
 # u
 
 ### Near-close
@@ -208,3 +209,9 @@
 <Multi_key> <3> <bar>: "˧"
 <Multi_key> <4> <bar>: "˦"
 <Multi_key> <5> <bar>: "˥"
+
+
+
+### others
+# <Multi_key> <5> <bar>: "ʕ" U0295 # LATIN LETTER PHARYNGEAL VOICED FRICATIVE
+<Multi_key> <^> <?> <(>: "ˤ" U02E4 # MODIFIER LETTER REVERSED GLOTTAL STOP
